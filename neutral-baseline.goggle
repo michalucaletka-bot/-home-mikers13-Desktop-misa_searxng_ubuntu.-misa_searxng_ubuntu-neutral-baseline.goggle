@@ -1,0 +1,7 @@
+! name: Neutral No-Discard Baseline
+! description: Baseline Goggle without discard or downrank rules. Its only rule targets the reserved .invalid domain and should not affect ordinary web results.
+! public: false
+! author: Misa
+! license: CC0-1.0
+
+|https://neutral-baseline.invalid^$boost=1
